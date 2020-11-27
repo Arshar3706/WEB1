@@ -4,51 +4,7 @@
 <head>
     <title>WEB1 - JavaScript</title>
     <meta charaset="utf-8">
-    <style>
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        h1 {
-            font-size: 45px;
-            text-align: center;
-            border-bottom: 1px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-
-        ol {
-            border-right: 1px solid gray;
-            width: 100px;
-            margin: 0;
-            padding: 20px;
-        }
-
-        #grid {
-            display: grid;
-            grid-template-columns: 150px 1fr;
-        }
-
-        #grid #article {
-            padding-left: 20px;
-        }
-
-        @media(max-width: 800px) {
-            #grid {
-                display: block;
-            }
-
-            ol {
-                border-right: none;
-            }
-
-            h1 {
-                border-bottom: none;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -88,11 +44,8 @@
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
         })();
-
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
 
-</body>
-
-</html>
+</body></html>
